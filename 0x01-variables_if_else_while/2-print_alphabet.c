@@ -3,21 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: This is the main function that prints the alphabet in lowercase.
+  Description: This is the main function that prints the alphabet in lowercase.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char letter = 'a';
+char letter = 'a';
 
-    while (letter <= 'z')
-    {
-        putchar(letter);
-        letter++;
-    }
+while (letter <= 'z')
+{
+putchar(letter);
+letter++;
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }
