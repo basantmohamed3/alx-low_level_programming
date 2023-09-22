@@ -14,11 +14,11 @@ int digit = 0;
 
 while (digit < 10)
 {
-putchar(digit + '0'); // Print the digit character
+putchar(digit + '0');
 digit++;
 }
 
-putchar('\n'); // Print a newline character to end the line
+putchar('\n');
 
 return (0);
 }
