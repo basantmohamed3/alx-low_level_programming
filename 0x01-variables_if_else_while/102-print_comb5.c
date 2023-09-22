@@ -27,7 +27,8 @@ putchar(' ');
 putchar(tens_digit2 + '0');
 putchar(ones_digit2 + '0');
 
-if (!(tens_digit1 == 9 && ones_digit1 == 8 && tens_digit2 == 9 && ones_digit2 == 9))
+if (!(tens_digit1 == 9 && ones_digit1 == 8 && tens_digit2 == 9 && 
+			ones_digit2 == 9))
 {
 putchar(',');
 putchar(' ');
