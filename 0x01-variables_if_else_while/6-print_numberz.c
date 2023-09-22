@@ -10,17 +10,15 @@
  */
 int main(void)
 {
-putchar('0');
-putchar('1');
-putchar('2');
-putchar('3');
-putchar('4');
-putchar('5');
-putchar('6');
-putchar('7');
-putchar('8');
-putchar('9');
-putchar('\n');
+int digit = 0;
+
+while (digit < 10)
+{
+putchar(digit + '0'); // Print the digit character
+digit++;
+}
+
+putchar('\n'); // Print a newline character to end the line
 
 return (0);
 }
